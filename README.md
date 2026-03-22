@@ -1,10 +1,13 @@
 Rock Type Classification
-A machine learning project that classifies rocks as Igneous, Metamorphic, or Sedimentary using visual features — and compares model performance against human judgment.
+---
+A machine learning project that classifies rocks as Igneous, Metamorphic, or Sedimentary using visual features and compares model performance against human judgment.
+
 ---
 Project Overview
 This project applies and compares multiple classification algorithms to identify rock types based on observable geological features. It also includes a unique human vs. model comparison to evaluate how well ML models align with human perception.
 Best Model: Ensemble (Logistic Regression + SVM + Random Forest)  
 Key Metric: Accuracy, Precision, Recall, F1-Score
+
 ---
 Project Structure
 ```
@@ -29,6 +32,7 @@ Single_crystal	Single crystal structure
 Multiple_crystals	Multiple crystal structures
 Sandy_texture	Sandy surface texture
 Target Classes: `1 = Igneous` | `2 = Metamorphic` | `3 = Sedimentary`
+
 ---
 Methodology
 1. Data Preparation
@@ -67,10 +71,13 @@ Logistic Regression	r = 0.55
 SVM	r = 0.53
 Random Forest	r = 0.50
 Ensemble	r = 0.58
+
 ---
+
 Tech Stack
 Python 3
 pandas, NumPy, SciPy — data handling & statistics
 matplotlib, seaborn — visualization
 scikit-learn — modeling, tuning, evaluation
+
 ---
