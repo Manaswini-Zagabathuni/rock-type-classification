@@ -76,8 +76,8 @@ Ensemble	r = 0.58
 
 Tech Stack
 Python 3
-pandas, NumPy, SciPy — data handling & statistics
-matplotlib, seaborn — visualization
-scikit-learn — modeling, tuning, evaluation
+pandas, NumPy, SciPy - data handling & statistics
+matplotlib, seaborn - visualization
+scikit-learn - modeling, tuning, evaluation
 
 ---
